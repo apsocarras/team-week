@@ -23,7 +23,7 @@
 ## Description
 This repo includes data matipulation for datasets working with a team.
 
-## Datasets used
+## Datasets Used
 
 1. [USA Real Estate Data](https://www.kaggle.com/datasets/ahmedshahriarsakib/usa-real-estate-dataset)
 2. [Global Cost of Living](https://www.kaggle.com/datasets/mvieira101/global-cost-of-living)
