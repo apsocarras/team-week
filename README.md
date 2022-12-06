@@ -20,15 +20,17 @@
 
 </br>
 
-## Description
-This repo includes data matipulation for datasets working with a team.
-
 ## Datasets Used
 
 1. [USA Real Estate Data](https://www.kaggle.com/datasets/ahmedshahriarsakib/usa-real-estate-dataset)
 2. [Global Cost of Living](https://www.kaggle.com/datasets/mvieira101/global-cost-of-living)
-3. [World Happiness Report 2021](https://www.kaggle.com/datasets/ajaypalsinghlo/world-happiness-report-2021) ([2020](https://www.kaggle.com/datasets/anamvillalpando/world-happiness-ranking))
-4. [Global Quality of Life](https://www.kaggle.com/datasets/cityapiio/countries-quality-of-life-index-2020-year) ([Alternative Source](https://www.kaggle.com/datasets/shivamsingh0194/quality-of-life-in-a-country-comparison))
+3. [World Happiness Report 2021](https://www.kaggle.com/datasets/ajaypalsinghlo/world-happiness-report-2021)
+4. [Global Quality of Life](https://www.kaggle.com/datasets/cityapiio/countries-quality-of-life-index-2020-year)
+
+</br>
+
+## Description
+This repo includes data manipulation for datasets working with a team. Alejandro performed profiling, cleaning and transformations on the Cost of Living data, in `cost_living.csv`. Drew worked profiling, cleaning and transformations on World Happiness and Global Quality of Life data sets to merge into `world_happiness_clean.csv`. Ruben performed profiling, cleaning and transformations on the Realtor data (`clean_realtor_data.csv`), and then joined the other contributors' datasets into one consolidated csv file. The realtor and cost of living data were concatenated in order to expand the data set for price per square meter data at the city level. Then that expanded data (`cost_living_with_realtor.csv`) set was merged with `world_happiness_clean.csv` into the consolidated `cl_real_happiness.csv`
 
 <br>
 
