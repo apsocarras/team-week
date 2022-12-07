@@ -42,19 +42,27 @@ Once the datasets were cleaned and consolidated, the team created (and in some c
 
 ![life_exp_map.png](./images/life_exp_map.png)
 
-Drew put together a pie chart highlighting the life expectancy for the top 10 countries:
+Drew put together a pie chart highlighting the life expectancy for the top 10 countries. Code for the visualization is located in `dw.ipynb`. Below is the pie chart:
 
 <br>
 
 ![lifeexpectancy.png](./images/lifeexpectancy.png)
 
-Drew put together a line graph highlighting the happiness score for the top 10 countries. Interesting note is there seems to be correlation between Happiness and Life Expectancy with the two showing the same exact top ten countries.
+Drew also put together a line graph highlighting the happiness score for the top 10 countries. Interesting note is there seems to be correlation between Happiness and Life Expectancy with the two showing the same exact top ten countries. Code for the visualization is located in `dw.ipynb`. Below is the line chart:
 
 <br>
 
 ![worldhappiness2021.png](./images/worldhappiness2021.png)
 
 <br>
+
+Drew compiled a map highlighting the happiness score for all countries. Code for the visualization is located in `dw.ipynb`. Below is the output of the visualization:
+
+![happiness_geo_heat.png](./images/happiness_geo_heat.png)
+
+<br>
+
+Overall, the team was able to limit the amount of merge conflicts by working on independent notebooks and assigning different tasks (e.g. Ruben focused on README). 
 
 ## Setup/Installation Requirements
 
