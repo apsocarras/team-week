@@ -6,3 +6,4 @@ openpyxl==3.0.9
 pyarrow==7.0.0
 matplotlib
 folium
+country_converter
