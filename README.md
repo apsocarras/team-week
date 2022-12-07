@@ -37,11 +37,22 @@
 This repo includes data manipulation for datasets working with a team. Alejandro performed profiling, cleaning and transformations on the Cost of Living data, and exported to a clean version of the csv named `cost_living.csv`. Drew worked on profiling, cleaning and transformations for the World Happiness and Global Quality of Life data sets to merge into `world_happiness_clean.csv`. Ruben performed profiling, cleaning and transformations on the Realtor data (`clean_realtor_data.csv`), and then joined the other contributors' datasets into one consolidated csv file. The realtor and cost of living data were concatenated in order to expand the data set for price per square meter data at the city level. Then that expanded data (`cost_living_with_realtor.csv`) set was merged with `world_happiness_clean.csv` into the consolidated `cl_real_happiness.csv`.
 
 Once the datasets were cleaned and consolidated, the team created (and in some cases recreated) data visualizations and analysis using `cl_real_happiness.csv`. In the `rg_maps.ipynb` notebook is a geo heat map of life expectancy by country that was put together by Ruben. Below is the output of the visualization:
-![life_exp_map.png](./img/life_exp_map.png)
+
+<br>
+
+![life_exp_map.png](./images/life_exp_map.png)
 
 Drew put together a pie chart highlighting the life expectancy for the top 10 countries:
-![lifeexpectancy.png](./img/lifeexpectancy.png)
 
+<br>
+
+![lifeexpectancy.png](./images/lifeexpectancy.png)
+
+Drew put together a line graph highlighting the happiness score for the top 10 countries. Interesting note is there seems to be correlation between Happiness and Life Expectancy with the two showing the same exact top ten countries.
+
+<br>
+
+![worldhappiness2021.png](./images/worldhappiness2021.png)
 
 <br>
 
