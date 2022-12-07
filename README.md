@@ -64,7 +64,7 @@ Drew compiled a map highlighting the happiness score for all countries. Code for
 
 Alejandro put together a map visualization using Folium, that shows the average price per square meter by state. Code for the visualization is located in `alex_work.ipynb`. Below is a snapshot of the visualization, as it is a dynamic map so in the notebook you can zoom in and out:
 
-![p_per_sq.png](./images/p_per_sq.png)
+![p_per_sq.png](./images/p_per_sq_meter.png)
 
 Overall, the team was able to limit the amount of merge conflicts by working on independent notebooks and assigning different tasks (e.g. Ruben focused on README). One challenge that we underwent was version control for the datasets that were transformed and then needed to be leveraged by the broader group. Going forward a good practice to help resolve this is to spend time as a group validating the final data set, agree its ready to be leveraged, and then go on to begin our data visualizations and exploration. 
 
