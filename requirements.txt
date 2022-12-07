@@ -7,3 +7,4 @@ pyarrow==7.0.0
 matplotlib
 folium
 country_converter
+geopandas
