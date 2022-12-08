@@ -20,7 +20,7 @@
 * NumPy
 * `.gitignore`
 * `requirements.txt`
-
+  
 </br>
 
 ## Datasets Used
@@ -99,7 +99,6 @@ Overall, the team was able to limit the amount of merge conflicts by working on 
   ```bash
   code .
   ```
-
 </br>
 
 ## Known Bugs
