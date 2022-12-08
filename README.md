@@ -11,7 +11,6 @@
 * Python
 * Pandas
 * GeoPandas
-* Pyplot
 * Matplot
 * Folium
 * Git
@@ -95,6 +94,9 @@ Overall, the team was able to limit the amount of merge conflicts by working on 
   ```bash
     pip install -r requirements.txt
   ```
+* Download the necessary csv files listed in the Datasets Used section
+* Download the cleaned up csv files created by the contributors on this [google drive](https://drive.google.com/drive/folders/1lq9CVXbi3C3INEUpxUeNBACZHR3vWxhE)
+* One all csv data sets have been added to the data folder in this directory, you can open it
 * With your virtual environment now enabled with proper requirements, open the directory:
   ```bash
   code .
