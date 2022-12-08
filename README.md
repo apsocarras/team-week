@@ -2,7 +2,7 @@
 
 #### By Ruben Giosa, Alejandro Socarras, Drew White
 
-#### This repo includes exercises for working with datasets using pandas working as a team.
+#### This repo includes exercises for working with datasets using pandas working as a team. 
 
 <br>
 
@@ -10,7 +10,10 @@
 
 * Python
 * Pandas
+* GeoPandas
 * Pyplot
+* Matplot
+* Folium
 * Git
 * Markdown
 * JSON
@@ -20,17 +23,50 @@
 
 </br>
 
-## Description
-This repo includes data matipulation for datasets working with a team.
-
 ## Datasets Used
 
 1. [USA Real Estate Data](https://www.kaggle.com/datasets/ahmedshahriarsakib/usa-real-estate-dataset)
 2. [Global Cost of Living](https://www.kaggle.com/datasets/mvieira101/global-cost-of-living)
-3. [World Happiness Report 2021](https://www.kaggle.com/datasets/ajaypalsinghlo/world-happiness-report-2021) ([2020](https://www.kaggle.com/datasets/anamvillalpando/world-happiness-ranking))
-4. [Global Quality of Life](https://www.kaggle.com/datasets/cityapiio/countries-quality-of-life-index-2020-year) ([Alternative Source](https://www.kaggle.com/datasets/shivamsingh0194/quality-of-life-in-a-country-comparison))
+3. [World Happiness Report 2021](https://www.kaggle.com/datasets/ajaypalsinghlo/world-happiness-report-2021)
+4. [World Happiness Ranking](https://www.kaggle.com/datasets/anamvillalpando/world-happiness-ranking)
+
+</br>
+
+## Description
+
+This repo includes data manipulation for datasets working with a team. Alejandro performed profiling, cleaning and transformations on the Cost of Living data, and exported to a clean version of the csv named `cost_living.csv`. Drew worked on profiling, cleaning and transformations for the World Happiness and Global Quality of Life data sets to merge into `world_happiness_clean.csv`. Ruben performed profiling, cleaning and transformations on the Realtor data (`clean_realtor_data.csv`), and then joined the other contributors' datasets into one consolidated csv file. The realtor and cost of living data were concatenated in order to expand the data set for price per square meter data at the city level. Then that expanded data (`cost_living_with_realtor.csv`) set was merged with `world_happiness_clean.csv` into the consolidated `cl_real_happiness.csv`.
+
+Once the datasets were cleaned and consolidated, the team created (and in some cases recreated) data visualizations and analysis using `cl_real_happiness.csv`. In the `rg_maps.ipynb` notebook is a geo heat map of life expectancy by country that was put together by Ruben. Below is the output of the visualization:
 
 <br>
+
+![life_exp_map.png](./images/life_exp_map.png)
+
+Drew put together a pie chart highlighting the life expectancy for the top 10 countries. Code for the visualization is located in `dw.ipynb`. Below is the pie chart:
+
+<br>
+
+![lifeexpectancy.png](./images/lifeexpectancy.png)
+
+Drew also put together a line graph highlighting the happiness score for the top 10 countries. Interesting note is there seems to be correlation between Happiness and Life Expectancy with the two showing the same exact top ten countries. Code for the visualization is located in `dw.ipynb`. Below is the line chart:
+
+<br>
+
+![worldhappiness2021.png](./images/worldhappiness2021.png)
+
+<br>
+
+Drew compiled a map highlighting the happiness score for all countries. Code for the visualization is located in `dw.ipynb`. Below is the output of the visualization:
+
+![happiness_geo_heat.png](./images/happiness_geo_heat.png)
+
+<br>
+
+Alejandro put together a map visualization using Folium, that shows the average price per square meter by state. Code for the visualization is located in `alex_work.ipynb`. Below is a snapshot of the visualization, as it is a dynamic map so in the notebook you can zoom in and out:
+
+![p_per_sq.png](./images/p_per_sq_meter.png)
+
+Overall, the team was able to limit the amount of merge conflicts by working on independent notebooks and assigning different tasks (e.g. Ruben focused on README). One challenge that we underwent was version control for the datasets that were transformed and then needed to be leveraged by the broader group. Going forward a good practice to help resolve this is to spend time as a group validating the final data set, agree its ready to be leveraged, and then go on to begin our data visualizations and exploration. 
 
 ## Setup/Installation Requirements
 
@@ -45,7 +81,7 @@ This repo includes data matipulation for datasets working with a team.
   ```
 * Go to the new directory or open the directory folder on your desktop:
   ```bash
-  cd python-adv-cr
+  cd python-team-week
   ```
 * Once in the directory you will need to set up a virtual environment in your terminal:
   ```bash
