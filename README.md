@@ -11,7 +11,6 @@
 * Python
 * Pandas
 * GeoPandas
-* Pyplot
 * Matplot
 * Folium
 * Git
@@ -20,7 +19,7 @@
 * NumPy
 * `.gitignore`
 * `requirements.txt`
-
+  
 </br>
 
 ## Datasets Used
@@ -28,7 +27,7 @@
 1. [USA Real Estate Data](https://www.kaggle.com/datasets/ahmedshahriarsakib/usa-real-estate-dataset)
 2. [Global Cost of Living](https://www.kaggle.com/datasets/mvieira101/global-cost-of-living)
 3. [World Happiness Report 2021](https://www.kaggle.com/datasets/ajaypalsinghlo/world-happiness-report-2021)
-4. [Global Quality of Life](https://www.kaggle.com/datasets/cityapiio/countries-quality-of-life-index-2020-year)
+4. [World Happiness Ranking](https://www.kaggle.com/datasets/anamvillalpando/world-happiness-ranking)
 
 </br>
 
@@ -62,7 +61,11 @@ Drew compiled a map highlighting the happiness score for all countries. Code for
 
 <br>
 
-Overall, the team was able to limit the amount of merge conflicts by working on independent notebooks and assigning different tasks (e.g. Ruben focused on README). 
+Alejandro put together a map visualization using Folium, that shows the average price per square meter by state. Code for the visualization is located in `alex_work.ipynb`. Below is a snapshot of the visualization, as it is a dynamic map so in the notebook you can zoom in and out:
+
+![p_per_sq.png](./images/p_per_sq_meter.png)
+
+Overall, the team was able to limit the amount of merge conflicts by working on independent notebooks and assigning different tasks (e.g. Ruben focused on README). One challenge that we underwent was version control for the datasets that were transformed and then needed to be leveraged by the broader group. Going forward a good practice to help resolve this is to spend time as a group validating the final data set, agree its ready to be leveraged, and then go on to begin our data visualizations and exploration. 
 
 ## Setup/Installation Requirements
 
@@ -77,7 +80,7 @@ Overall, the team was able to limit the amount of merge conflicts by working on 
   ```
 * Go to the new directory or open the directory folder on your desktop:
   ```bash
-  cd python-adv-cr
+  cd python-team-week
   ```
 * Once in the directory you will need to set up a virtual environment in your terminal:
   ```bash
@@ -91,11 +94,13 @@ Overall, the team was able to limit the amount of merge conflicts by working on 
   ```bash
     pip install -r requirements.txt
   ```
+* Download the necessary csv files listed in the Datasets Used section
+* Download the cleaned up csv files created by the contributors on this [google drive](https://drive.google.com/drive/folders/1lq9CVXbi3C3INEUpxUeNBACZHR3vWxhE)
+* One all csv data sets have been added to the data folder in this directory, you can open it
 * With your virtual environment now enabled with proper requirements, open the directory:
   ```bash
   code .
   ```
-
 </br>
 
 ## Known Bugs
