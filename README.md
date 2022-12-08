@@ -65,6 +65,10 @@ Alejandro put together a map visualization using Folium, that shows the average 
 
 ![p_per_sq.png](./images/p_per_sq_meter.png)
 
+Ruben created a scatter plot visualization that shows the average price per square meter against life expectancy and social support, for 10 countries with the highest life expectancy. Code for the visualization is located in `rg_scatter.ipynb`. Below is a snapshot of the visualization:
+
+![scatter_plot.png](./images/scatter_plot.png)
+
 Overall, the team was able to limit the amount of merge conflicts by working on independent notebooks and assigning different tasks (e.g. Ruben focused on README). One challenge that we underwent was version control for the datasets that were transformed and then needed to be leveraged by the broader group. Going forward a good practice to help resolve this is to spend time as a group validating the final data set, agree its ready to be leveraged, and then go on to begin our data visualizations and exploration. 
 
 ## Setup/Installation Requirements
