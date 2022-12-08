@@ -69,7 +69,7 @@ Ruben created a scatter plot visualization that shows the average price per squa
 
 ![scatter_plot.png](./images/scatter_plot.png)
 
-Overall, the team was able to limit the amount of merge conflicts by working on independent notebooks and assigning different tasks (e.g. Ruben focused on README). One challenge that we underwent was version control for the datasets that were transformed and then needed to be leveraged by the broader group. Going forward a good practice to help resolve this is to spend time as a group validating the final data set, agree its ready to be leveraged, and then go on to begin our data visualizations and exploration. 
+Overall, the team was able to limit the amount of merge conflicts by working on independent notebooks and assigning different tasks (e.g. Each focused on different data sets, Ruben completed README, etc.). One challenge that we underwent was version control for the datasets that were transformed and then needed to be leveraged by the broader group. One key learning we had was going forward a good practice to help mitigate this is to spend time as a group validating the final data set, agree its ready to be leveraged, and then go on to begin our data visualizations and exploration. This would prevent having version control issues and digging through code to ensure its reading from proper csv files.
 
 ## Setup/Installation Requirements
 
