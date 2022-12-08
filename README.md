@@ -65,6 +65,10 @@ Alejandro put together a map visualization using Folium, that shows the average 
 
 ![p_per_sq.png](./images/p_per_sq_meter.png)
 
+Alejandro also used geopandas to create a similar map on a global scale: 
+
+!['p_per_sq_meter_global2.png'](./images/p_per_sq_meter_global2.png)
+
 Ruben created a scatter plot visualization that shows the average price per square meter against life expectancy and social support, for 10 countries with the highest life expectancy. Code for the visualization is located in `rg_scatter.ipynb`. Below is a snapshot of the visualization:
 
 ![scatter_plot.png](./images/scatter_plot.png)
